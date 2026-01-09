@@ -1,0 +1,7 @@
+n=int(input())
+a=list(map(int,input().split()))
+c1=a.count(1)
+c2=a.count(2)
+c3=a.count(3)
+d=max(c1,c2,c3)
+print(n-d)
